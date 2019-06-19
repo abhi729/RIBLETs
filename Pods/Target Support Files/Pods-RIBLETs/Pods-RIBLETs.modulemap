@@ -1,6 +1,0 @@
-framework module Pods_RIBLETs {
-  umbrella header "Pods-RIBLETs-umbrella.h"
-
-  export *
-  module * { export * }
-}
