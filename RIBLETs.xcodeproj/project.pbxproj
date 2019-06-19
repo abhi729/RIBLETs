@@ -3,16 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24DC7B1322B8AD6000CE3DCC /* QuizRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC7B0F22B8AD6000CE3DCC /* QuizRouter.swift */; };
+		24DC7B1422B8AD6000CE3DCC /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC7B1022B8AD6000CE3DCC /* QuizViewController.swift */; };
+		24DC7B1522B8AD6000CE3DCC /* QuizBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC7B1122B8AD6000CE3DCC /* QuizBuilder.swift */; };
+		24DC7B1622B8AD6000CE3DCC /* QuizInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC7B1222B8AD6000CE3DCC /* QuizInteractor.swift */; };
+		24DC7B1822B8ADFE00CE3DCC /* LoggedInComponent+Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC7B1722B8ADFE00CE3DCC /* LoggedInComponent+Quiz.swift */; };
+		24DC7B1A22B8B91000CE3DCC /* QuizError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC7B1922B8B91000CE3DCC /* QuizError.swift */; };
+		24EAAEA54E6C4FB7F92FCB79 /* Pods_RIBLETs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEE52DCCB4B72F12FAFAB63 /* Pods_RIBLETs.framework */; };
 		24EF278722B70C44009CDEE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF278622B70C44009CDEE3 /* AppDelegate.swift */; };
-		24EF278922B70C44009CDEE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF278822B70C44009CDEE3 /* ViewController.swift */; };
-		24EF278C22B70C44009CDEE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EF278A22B70C44009CDEE3 /* Main.storyboard */; };
 		24EF278E22B70C45009CDEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EF278D22B70C45009CDEE3 /* Assets.xcassets */; };
-		24EF279122B70C45009CDEE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EF278F22B70C45009CDEE3 /* LaunchScreen.storyboard */; };
 		24EF279C22B70C45009CDEE3 /* RIBLETsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF279B22B70C45009CDEE3 /* RIBLETsTests.swift */; };
+		24EF27A822B70E2F009CDEE3 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27A722B70E2F009CDEE3 /* AppComponent.swift */; };
+		24EF27AD22B70E68009CDEE3 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27A922B70E68009CDEE3 /* RootRouter.swift */; };
+		24EF27AE22B70E68009CDEE3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27AA22B70E68009CDEE3 /* RootViewController.swift */; };
+		24EF27AF22B70E68009CDEE3 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27AB22B70E68009CDEE3 /* RootBuilder.swift */; };
+		24EF27B022B70E68009CDEE3 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27AC22B70E68009CDEE3 /* RootInteractor.swift */; };
+		24EF27B922B71312009CDEE3 /* LoggedOutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27B522B71312009CDEE3 /* LoggedOutRouter.swift */; };
+		24EF27BA22B71312009CDEE3 /* LoggedOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27B622B71312009CDEE3 /* LoggedOutViewController.swift */; };
+		24EF27BB22B71312009CDEE3 /* LoggedOutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27B722B71312009CDEE3 /* LoggedOutBuilder.swift */; };
+		24EF27BC22B71312009CDEE3 /* LoggedOutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27B822B71312009CDEE3 /* LoggedOutInteractor.swift */; };
+		24EF27BE22B713B9009CDEE3 /* RootComponent+LoggedOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27BD22B713B9009CDEE3 /* RootComponent+LoggedOut.swift */; };
+		24EF27C022B715E2009CDEE3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24EF27BF22B715E2009CDEE3 /* Default-568h@2x.png */; };
+		24EF27C522B71E71009CDEE3 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27C422B71E71009CDEE3 /* UIAlertController.swift */; };
+		24EF27CA22B74126009CDEE3 /* LoggedInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27C722B74126009CDEE3 /* LoggedInRouter.swift */; };
+		24EF27CB22B74126009CDEE3 /* LoggedInBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27C822B74126009CDEE3 /* LoggedInBuilder.swift */; };
+		24EF27CC22B74126009CDEE3 /* LoggedInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27C922B74126009CDEE3 /* LoggedInInteractor.swift */; };
+		24EF27CE22B758DD009CDEE3 /* RootComponent+LoggedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27CD22B758DD009CDEE3 /* RootComponent+LoggedIn.swift */; };
+		24EF27D022B75946009CDEE3 /* RootViewController+LoggedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27CF22B75946009CDEE3 /* RootViewController+LoggedIn.swift */; };
+		24EF27D622B75DEB009CDEE3 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27D222B75DEB009CDEE3 /* HomeRouter.swift */; };
+		24EF27D722B75DEB009CDEE3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27D322B75DEB009CDEE3 /* HomeViewController.swift */; };
+		24EF27D822B75DEB009CDEE3 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27D422B75DEB009CDEE3 /* HomeBuilder.swift */; };
+		24EF27D922B75DEB009CDEE3 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27D522B75DEB009CDEE3 /* HomeInteractor.swift */; };
+		24EF27DB22B75E16009CDEE3 /* ScoreStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27DA22B75E16009CDEE3 /* ScoreStream.swift */; };
+		24EF27DD22B76092009CDEE3 /* LoggedInComponent+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF27DC22B76092009CDEE3 /* LoggedInComponent+Home.swift */; };
+		36BD2B06D5B8B8A20D0BFB34 /* Pods_RIBLETsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5883BCAEB65F3A7BA6F345 /* Pods_RIBLETsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +54,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24DC7B0F22B8AD6000CE3DCC /* QuizRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizRouter.swift; sourceTree = "<group>"; };
+		24DC7B1022B8AD6000CE3DCC /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		24DC7B1122B8AD6000CE3DCC /* QuizBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBuilder.swift; sourceTree = "<group>"; };
+		24DC7B1222B8AD6000CE3DCC /* QuizInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizInteractor.swift; sourceTree = "<group>"; };
+		24DC7B1722B8ADFE00CE3DCC /* LoggedInComponent+Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+Quiz.swift"; sourceTree = "<group>"; };
+		24DC7B1922B8B91000CE3DCC /* QuizError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizError.swift; sourceTree = "<group>"; };
 		24EF278322B70C44009CDEE3 /* RIBLETs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RIBLETs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EF278622B70C44009CDEE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24EF278822B70C44009CDEE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		24EF278B22B70C44009CDEE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24EF278D22B70C45009CDEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		24EF279022B70C45009CDEE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24EF279222B70C45009CDEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24EF279722B70C45009CDEE3 /* RIBLETsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RIBLETsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EF279B22B70C45009CDEE3 /* RIBLETsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIBLETsTests.swift; sourceTree = "<group>"; };
 		24EF279D22B70C45009CDEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24EF27A722B70E2F009CDEE3 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		24EF27A922B70E68009CDEE3 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		24EF27AA22B70E68009CDEE3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		24EF27AB22B70E68009CDEE3 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		24EF27AC22B70E68009CDEE3 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		24EF27B522B71312009CDEE3 /* LoggedOutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutRouter.swift; sourceTree = "<group>"; };
+		24EF27B622B71312009CDEE3 /* LoggedOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutViewController.swift; sourceTree = "<group>"; };
+		24EF27B722B71312009CDEE3 /* LoggedOutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutBuilder.swift; sourceTree = "<group>"; };
+		24EF27B822B71312009CDEE3 /* LoggedOutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutInteractor.swift; sourceTree = "<group>"; };
+		24EF27BD22B713B9009CDEE3 /* RootComponent+LoggedOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootComponent+LoggedOut.swift"; sourceTree = "<group>"; };
+		24EF27BF22B715E2009CDEE3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		24EF27C422B71E71009CDEE3 /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		24EF27C722B74126009CDEE3 /* LoggedInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInRouter.swift; sourceTree = "<group>"; };
+		24EF27C822B74126009CDEE3 /* LoggedInBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInBuilder.swift; sourceTree = "<group>"; };
+		24EF27C922B74126009CDEE3 /* LoggedInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInInteractor.swift; sourceTree = "<group>"; };
+		24EF27CD22B758DD009CDEE3 /* RootComponent+LoggedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootComponent+LoggedIn.swift"; sourceTree = "<group>"; };
+		24EF27CF22B75946009CDEE3 /* RootViewController+LoggedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootViewController+LoggedIn.swift"; sourceTree = "<group>"; };
+		24EF27D222B75DEB009CDEE3 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		24EF27D322B75DEB009CDEE3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		24EF27D422B75DEB009CDEE3 /* HomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		24EF27D522B75DEB009CDEE3 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		24EF27DA22B75E16009CDEE3 /* ScoreStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreStream.swift; sourceTree = "<group>"; };
+		24EF27DC22B76092009CDEE3 /* LoggedInComponent+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+Home.swift"; sourceTree = "<group>"; };
+		48FF28B2E3FC2BC32D212902 /* Pods-RIBLETs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBLETs.debug.xcconfig"; path = "Target Support Files/Pods-RIBLETs/Pods-RIBLETs.debug.xcconfig"; sourceTree = "<group>"; };
+		5493B8A3B3BDDA6B57D9A2D3 /* Pods-RIBLETsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBLETsTests.release.xcconfig"; path = "Target Support Files/Pods-RIBLETsTests/Pods-RIBLETsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A94A9C729364241E1C87239 /* Pods-RIBLETs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBLETs.release.xcconfig"; path = "Target Support Files/Pods-RIBLETs/Pods-RIBLETs.release.xcconfig"; sourceTree = "<group>"; };
+		AEEE52DCCB4B72F12FAFAB63 /* Pods_RIBLETs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RIBLETs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB02FEEC01B3CD5AB21E5B3F /* Pods-RIBLETsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBLETsTests.debug.xcconfig"; path = "Target Support Files/Pods-RIBLETsTests/Pods-RIBLETsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB5883BCAEB65F3A7BA6F345 /* Pods_RIBLETsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RIBLETsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24EAAEA54E6C4FB7F92FCB79 /* Pods_RIBLETs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +111,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BD2B06D5B8B8A20D0BFB34 /* Pods_RIBLETsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0954B36490CFE33EC24195BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48FF28B2E3FC2BC32D212902 /* Pods-RIBLETs.debug.xcconfig */,
+				8A94A9C729364241E1C87239 /* Pods-RIBLETs.release.xcconfig */,
+				BB02FEEC01B3CD5AB21E5B3F /* Pods-RIBLETsTests.debug.xcconfig */,
+				5493B8A3B3BDDA6B57D9A2D3 /* Pods-RIBLETsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		24DC7B0E22B8AD4A00CE3DCC /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				24DC7B0F22B8AD6000CE3DCC /* QuizRouter.swift */,
+				24DC7B1022B8AD6000CE3DCC /* QuizViewController.swift */,
+				24DC7B1122B8AD6000CE3DCC /* QuizBuilder.swift */,
+				24DC7B1222B8AD6000CE3DCC /* QuizInteractor.swift */,
+				24DC7B1922B8B91000CE3DCC /* QuizError.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
 		24EF277A22B70C44009CDEE3 = {
 			isa = PBXGroup;
 			children = (
+				24EF27BF22B715E2009CDEE3 /* Default-568h@2x.png */,
 				24EF278522B70C44009CDEE3 /* RIBLETs */,
 				24EF279A22B70C45009CDEE3 /* RIBLETsTests */,
 				24EF278422B70C44009CDEE3 /* Products */,
+				0954B36490CFE33EC24195BC /* Pods */,
+				8DCFF10B89B88EB0725C7481 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +165,14 @@
 		24EF278522B70C44009CDEE3 /* RIBLETs */ = {
 			isa = PBXGroup;
 			children = (
-				24EF278622B70C44009CDEE3 /* AppDelegate.swift */,
-				24EF278822B70C44009CDEE3 /* ViewController.swift */,
-				24EF278A22B70C44009CDEE3 /* Main.storyboard */,
+				24DC7B0E22B8AD4A00CE3DCC /* Quiz */,
+				24EF27D122B75DB9009CDEE3 /* Home */,
+				24EF27C622B7410D009CDEE3 /* LoggedIn */,
+				24EF27C122B71748009CDEE3 /* Extensions */,
+				24EF27B422B712F1009CDEE3 /* LoggedOut */,
+				24EF27B122B70E70009CDEE3 /* Root */,
+				24EF27A622B70D8E009CDEE3 /* AppStart */,
 				24EF278D22B70C45009CDEE3 /* Assets.xcassets */,
-				24EF278F22B70C45009CDEE3 /* LaunchScreen.storyboard */,
 				24EF279222B70C45009CDEE3 /* Info.plist */,
 			);
 			path = RIBLETs;
@@ -96,6 +187,81 @@
 			path = RIBLETsTests;
 			sourceTree = "<group>";
 		};
+		24EF27A622B70D8E009CDEE3 /* AppStart */ = {
+			isa = PBXGroup;
+			children = (
+				24EF278622B70C44009CDEE3 /* AppDelegate.swift */,
+				24EF27A722B70E2F009CDEE3 /* AppComponent.swift */,
+			);
+			path = AppStart;
+			sourceTree = "<group>";
+		};
+		24EF27B122B70E70009CDEE3 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				24EF27A922B70E68009CDEE3 /* RootRouter.swift */,
+				24EF27AA22B70E68009CDEE3 /* RootViewController.swift */,
+				24EF27AB22B70E68009CDEE3 /* RootBuilder.swift */,
+				24EF27AC22B70E68009CDEE3 /* RootInteractor.swift */,
+				24EF27BD22B713B9009CDEE3 /* RootComponent+LoggedOut.swift */,
+				24EF27CD22B758DD009CDEE3 /* RootComponent+LoggedIn.swift */,
+				24EF27CF22B75946009CDEE3 /* RootViewController+LoggedIn.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		24EF27B422B712F1009CDEE3 /* LoggedOut */ = {
+			isa = PBXGroup;
+			children = (
+				24EF27B522B71312009CDEE3 /* LoggedOutRouter.swift */,
+				24EF27B622B71312009CDEE3 /* LoggedOutViewController.swift */,
+				24EF27B722B71312009CDEE3 /* LoggedOutBuilder.swift */,
+				24EF27B822B71312009CDEE3 /* LoggedOutInteractor.swift */,
+			);
+			path = LoggedOut;
+			sourceTree = "<group>";
+		};
+		24EF27C122B71748009CDEE3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				24EF27C422B71E71009CDEE3 /* UIAlertController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		24EF27C622B7410D009CDEE3 /* LoggedIn */ = {
+			isa = PBXGroup;
+			children = (
+				24EF27C722B74126009CDEE3 /* LoggedInRouter.swift */,
+				24EF27C822B74126009CDEE3 /* LoggedInBuilder.swift */,
+				24EF27C922B74126009CDEE3 /* LoggedInInteractor.swift */,
+				24EF27DA22B75E16009CDEE3 /* ScoreStream.swift */,
+				24EF27DC22B76092009CDEE3 /* LoggedInComponent+Home.swift */,
+				24DC7B1722B8ADFE00CE3DCC /* LoggedInComponent+Quiz.swift */,
+			);
+			path = LoggedIn;
+			sourceTree = "<group>";
+		};
+		24EF27D122B75DB9009CDEE3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				24EF27D222B75DEB009CDEE3 /* HomeRouter.swift */,
+				24EF27D322B75DEB009CDEE3 /* HomeViewController.swift */,
+				24EF27D422B75DEB009CDEE3 /* HomeBuilder.swift */,
+				24EF27D522B75DEB009CDEE3 /* HomeInteractor.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8DCFF10B89B88EB0725C7481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE52DCCB4B72F12FAFAB63 /* Pods_RIBLETs.framework */,
+				FB5883BCAEB65F3A7BA6F345 /* Pods_RIBLETsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24EF27A022B70C45009CDEE3 /* Build configuration list for PBXNativeTarget "RIBLETs" */;
 			buildPhases = (
+				8F54F8962E1FEF7BBF30A5CA /* [CP] Check Pods Manifest.lock */,
 				24EF277F22B70C44009CDEE3 /* Sources */,
 				24EF278022B70C44009CDEE3 /* Frameworks */,
 				24EF278122B70C44009CDEE3 /* Resources */,
+				814F37B8DA25E2E550A6B859 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24EF27A322B70C45009CDEE3 /* Build configuration list for PBXNativeTarget "RIBLETsTests" */;
 			buildPhases = (
+				76FB31DC4BAF3F486D086260 /* [CP] Check Pods Manifest.lock */,
 				24EF279322B70C45009CDEE3 /* Sources */,
 				24EF279422B70C45009CDEE3 /* Frameworks */,
 				24EF279522B70C45009CDEE3 /* Resources */,
+				64D3DD6B440F7AF11D01EFAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,9 +347,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24EF279122B70C45009CDEE3 /* LaunchScreen.storyboard in Resources */,
 				24EF278E22B70C45009CDEE3 /* Assets.xcassets in Resources */,
-				24EF278C22B70C44009CDEE3 /* Main.storyboard in Resources */,
+				24EF27C022B715E2009CDEE3 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +361,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64D3DD6B440F7AF11D01EFAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RIBLETsTests/Pods-RIBLETsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RIBLETsTests/Pods-RIBLETsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RIBLETsTests/Pods-RIBLETsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76FB31DC4BAF3F486D086260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RIBLETsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814F37B8DA25E2E550A6B859 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RIBLETs/Pods-RIBLETs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RIBLETs/Pods-RIBLETs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RIBLETs/Pods-RIBLETs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F54F8962E1FEF7BBF30A5CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RIBLETs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24EF277F22B70C44009CDEE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24EF278922B70C44009CDEE3 /* ViewController.swift in Sources */,
+				24EF27DB22B75E16009CDEE3 /* ScoreStream.swift in Sources */,
+				24DC7B1622B8AD6000CE3DCC /* QuizInteractor.swift in Sources */,
+				24DC7B1422B8AD6000CE3DCC /* QuizViewController.swift in Sources */,
+				24EF27B022B70E68009CDEE3 /* RootInteractor.swift in Sources */,
+				24EF27D022B75946009CDEE3 /* RootViewController+LoggedIn.swift in Sources */,
+				24EF27D722B75DEB009CDEE3 /* HomeViewController.swift in Sources */,
+				24EF27BA22B71312009CDEE3 /* LoggedOutViewController.swift in Sources */,
+				24DC7B1322B8AD6000CE3DCC /* QuizRouter.swift in Sources */,
 				24EF278722B70C44009CDEE3 /* AppDelegate.swift in Sources */,
+				24EF27AD22B70E68009CDEE3 /* RootRouter.swift in Sources */,
+				24EF27D922B75DEB009CDEE3 /* HomeInteractor.swift in Sources */,
+				24DC7B1A22B8B91000CE3DCC /* QuizError.swift in Sources */,
+				24EF27CB22B74126009CDEE3 /* LoggedInBuilder.swift in Sources */,
+				24EF27AF22B70E68009CDEE3 /* RootBuilder.swift in Sources */,
+				24EF27D622B75DEB009CDEE3 /* HomeRouter.swift in Sources */,
+				24EF27B922B71312009CDEE3 /* LoggedOutRouter.swift in Sources */,
+				24EF27CC22B74126009CDEE3 /* LoggedInInteractor.swift in Sources */,
+				24EF27DD22B76092009CDEE3 /* LoggedInComponent+Home.swift in Sources */,
+				24EF27AE22B70E68009CDEE3 /* RootViewController.swift in Sources */,
+				24EF27D822B75DEB009CDEE3 /* HomeBuilder.swift in Sources */,
+				24DC7B1522B8AD6000CE3DCC /* QuizBuilder.swift in Sources */,
+				24EF27BC22B71312009CDEE3 /* LoggedOutInteractor.swift in Sources */,
+				24EF27CE22B758DD009CDEE3 /* RootComponent+LoggedIn.swift in Sources */,
+				24EF27CA22B74126009CDEE3 /* LoggedInRouter.swift in Sources */,
+				24EF27A822B70E2F009CDEE3 /* AppComponent.swift in Sources */,
+				24EF27BE22B713B9009CDEE3 /* RootComponent+LoggedOut.swift in Sources */,
+				24EF27BB22B71312009CDEE3 /* LoggedOutBuilder.swift in Sources */,
+				24EF27C522B71E71009CDEE3 /* UIAlertController.swift in Sources */,
+				24DC7B1822B8ADFE00CE3DCC /* LoggedInComponent+Quiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,25 +496,6 @@
 			targetProxy = 24EF279822B70C45009CDEE3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		24EF278A22B70C44009CDEE3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24EF278B22B70C44009CDEE3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		24EF278F22B70C45009CDEE3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24EF279022B70C45009CDEE3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		24EF279E22B70C45009CDEE3 /* Debug */ = {
@@ -358,6 +616,7 @@
 		};
 		24EF27A122B70C45009CDEE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FF28B2E3FC2BC32D212902 /* Pods-RIBLETs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +634,7 @@
 		};
 		24EF27A222B70C45009CDEE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A94A9C729364241E1C87239 /* Pods-RIBLETs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +652,7 @@
 		};
 		24EF27A422B70C45009CDEE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB02FEEC01B3CD5AB21E5B3F /* Pods-RIBLETsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +673,7 @@
 		};
 		24EF27A522B70C45009CDEE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5493B8A3B3BDDA6B57D9A2D3 /* Pods-RIBLETsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

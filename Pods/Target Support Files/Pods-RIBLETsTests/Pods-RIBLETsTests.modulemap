@@ -1,0 +1,6 @@
+framework module Pods_RIBLETsTests {
+  umbrella header "Pods-RIBLETsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
